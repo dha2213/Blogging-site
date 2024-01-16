@@ -1,7 +1,7 @@
 
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
-
+// require("../database/db.js")
 import Token from '../model/token.js';
 
 dotenv.config();

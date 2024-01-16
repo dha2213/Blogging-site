@@ -1,5 +1,6 @@
-
+// require("../database/db.js")
 import Comment from '../model/comment.js';
+// const Comment=require("../model/comment")
 
 
 export const newComment = async (request, response) => {

@@ -1,4 +1,4 @@
-
+// require("../database/db.js")
 import Post from '../model/post.js';
 
 

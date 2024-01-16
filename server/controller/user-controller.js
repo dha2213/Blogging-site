@@ -1,10 +1,11 @@
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
+// require("../database/db.js")
 
 import Token from '../model/token.js'
 import User from '../model/user.js';
-
+// cob
 dotenv.config();
 
 export const singupUser = async (request, response) => {
