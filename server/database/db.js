@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 const Connection = async (username, password) => {
-    const URL = process.env.MONGODB_URI || `mongodb+srv://${username}:${password}@cluster0.ffcfpwh.mongodb.net/Blogging-site?retryWrites=true&w=majority`;
+    const URL = process.env.DB_URL|| `mongodb+srv://${username}:${password}@cluster0.ffcfpwh.mongodb.net/Blogging-site?retryWrites=true&w=majority`;
 
     mongoose.set('strictQuery', false);
 
